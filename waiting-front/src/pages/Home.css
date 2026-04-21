@@ -1,0 +1,56 @@
+/* src/pages/home.css */
+
+/* Home 전용 */
+.home-container {
+  max-width: 520px;
+}
+
+/* ✅ 로고는 absolute 제거하고 일반 흐름에서 배치 */
+.home-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: 100%;
+  justify-content: flex-start;
+
+  margin-top: 6px;
+  margin-bottom: 10px;
+
+  color: rgba(15, 23, 42, 0.95);
+  pointer-events: none; /* 클릭 방해 X */
+}
+
+.home-logo-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.32);
+
+  color: white;
+}
+
+.home-logo-text {
+  line-height: 1.05;
+}
+
+.home-logo-title {
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+.home-logo-sub {
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+/* h1이 로고랑 너무 붙으면 조금만 띄우기 */
+.home-title {
+  margin-top: 0;
+}
