@@ -34,7 +34,7 @@
 
 이 프로젝트는 **손님용 등록 페이지**, **내 웨이팅 티켓 페이지**, **관리자 대시보드**, **전광판 화면**으로 구성되어 있습니다.
 
-![메인 화면](images/home.png)
+![메인 화면](images/main.png)
 
 ---
 
@@ -48,7 +48,7 @@
 - 마지막으로 조회한 티켓 ID를 `localStorage`에 저장
 - 같은 날짜에 동일 전화번호로 중복 등록 방지
 
-![웨이팅 등록 화면](images/waiting-register.png)
+![웨이팅 등록 화면](images/main.png)
 
 ---
 
@@ -60,7 +60,7 @@
 - 관리자 설정값에 따라 날짜별 평균 처리시간 변경 가능
 - 메인 화면은 3초마다 자동 갱신
 
-![대기 현황 화면](images/home-summary.png)
+![대기 현황 화면](images/waiting1.png)
 
 ---
 
@@ -73,7 +73,7 @@
 - `WAITING`, `CALLED` 상태에서는 손님이 직접 취소 가능
 - 티켓 화면은 3초마다 자동 갱신
 
-![티켓 조회 화면](images/ticket.png)
+![호출 화면](images/called1.png)
 
 ---
 
@@ -92,7 +92,8 @@
 - 개별 항목에 대해 호출 / 입장 / 노쇼 / 취소 처리 가능
 - 날짜별 평균 처리시간 저장 가능
 
-![관리자 대시보드](images/admin-dashboard.png)
+![관리자 화면1](images/admin1.png)
+![관리자 화면2](images/admin2.png)
 
 ---
 
@@ -103,7 +104,7 @@
 - QR 코드 스캔으로 손님 등록 화면 연결
 - 2초마다 최근 호출 목록 자동 갱신
 
-![전광판 화면](images/admin-display.png)
+![전광판 화면](images/dashboard.png)
 
 ---
 
